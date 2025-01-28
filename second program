@@ -1,0 +1,23 @@
+2.     #include <stdio.h>
+
+int main()
+{
+    int a=20 ,b=30 ;
+    int result;
+    //demostrating AND operator...
+    if(a>10&&b>25) {
+        printf("both condition are true.")
+    }
+    //demostrating OR operator...
+    if(a<10||b>25) {
+        printf("at least of them are true.")
+    }
+    //demostrating NOT operator...
+    if(!a<10) {
+        printf("the the condition is false,so not operator is true. ")
+    }
+    
+
+
+    return 0;
+}
